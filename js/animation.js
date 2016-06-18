@@ -67,7 +67,17 @@ var World = function () {
       circle.rotation.x = Math.PI / 2;
       circle.position.x += 5;
       circle.geometry.computeVertexNormals();
-      this.scene.add(circle);
+      this.scene.add(circle)
+
+      var dir = i % 2 ? 1 : -1;
+      var dir2 = i % 3 ? 1 : -1;
+      TweenMax.to(circle.rotation, 3, { x: Math.PI * 1.5, z: Math.PI * dir, repeat: -1, repeatDelay: 4, delay: 2 + i / 2, ease: Linear.easeNone });
+
+      this.circles.push(circle);
+
+      j += 3;
+
+    }
 
     var bgSize = 215
     var bg = new THREE.Mesh(
@@ -105,15 +115,6 @@ var World = function () {
 	this.scene.add( letterS2p )
 	var letterS2 = this.createShape(this.transformSVGPath(svgS2), 0xffffff, -7, 8, 0, Math.PI, 0, 0, 0.02)
 	this.scene.add( letterS2 )
-
-      var dir = i % 2 ? 1 : -1;
-      var dir2 = i % 3 ? 1 : -1;
-      TweenMax.to(circle.rotation, 3, { x: Math.PI * 1.5, z: Math.PI * dir, repeat: -1, repeatDelay: 4, delay: i / 2, ease: Linear.easeNone });
-
-      this.circles.push(circle);
-
-      j += 3;
-    }
   };
 
   World.prototype.render = function render() {
