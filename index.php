@@ -22,7 +22,7 @@
 	<meta property="og:title" content="CSSConf.Asia Singapore 2016"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="https://2016.cssconf.asia/"/>
-	<meta property="og:image" content="https://2016.cssconf.asia/assets/og_cssconfasia.jpg"/>
+	<meta property="og:image" content="https://2016.cssconf.asia/assets/og_cssconfasia.png"/>
 	<meta property="og:site_name" content="CSSConf.Asia"/>
 	<meta property="og:description" content="Bridging web design and implementation. 24th November 2016, Singapore. Follow us on Twitter @cssconfasia"/>
 	<meta name="title" content="CSSConf.Asia Singapore 2016"/>
