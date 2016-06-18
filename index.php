@@ -38,28 +38,43 @@
             <p class="location">
                 Capitol Theatre, Singapore
             </p>
+            <p>
+                Ticket Sales start in<br/>
+                <span id="countdown">&nbsp;</span>
+            </p>
             <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia" target="_blank" class="button">
                 Submit a talk proposal
             </a>
 	    </div>
 	</section>
     <section id="body">
-        
+        <form id="subscribeForm" action="https://2014.cssconf.asia/addsubscriber.php" method="get">
+            Receive our email updates:<br/><br/>
+            <div class="input"><span><input type="text" required name="fname" placeholder="First name"><input type="email" required name="email" placeholder="E-Mail Address"><input type="submit" value="Subscribe"></span></div>
+            <div class="msg"><span></span></div>
+        </form>
         <footer>
+          <div>
             <p>
-                <a href="https://2015.devfest.asia"><img src="https://2016.jsconf.asia/img/devfest2016.png" height="100" alt="Singapore DevFest.Asia 2016"/></a>
+              <a href="https://2016.devfest.asia" style="border: none"><img src="//2016.jsconf.asia/img/devfest2016.png" height="100" alt="Singapore DevFest.Asia 2016"/></a>
+              <br/><br/>
+              CSSConf.Asia 2016 Singapore is part of DevFest.Asia,<br/>Southeast Asia’s community organized<br/>web developer festival
             </p>
+          </div>
+          <div>
+            <ul>
+              <li><a href="http://cssconf.org">CSSConf world-wide</a></li>
+              <li><a href="https://2015.cssconf.asia" target="_blank">CSSConf.Asia 2015</a> - <a href="https://2014.cssconf.asia" target="_blank">2014</a></li>
+              <li><a href="mailto:sponsors@jsconf.asia?subject=CSSConf.Asia 2016 Sponsorship">Sponsorship Inquiry</a></li>
+              <li><a href="https://twitter.com/cssconfasia">Twitter</a></li>
+              <li><a href="https://facebook.com/cssconfasia">Facebook</a></li>
+              <li><a href="https://2015.devfest.asia/code-of-conduct.html">Code of Conduct</a></li>
+             </ul>
+            </div>
             <p>
-                CSSConf.Asia is proudly part of Asia’s<br/>community organized web developer festival.<br/><br/>
-
-                Checkout CSSConf in <a href="http://cssconf.org">other countries</a>.
-
-                <br/><br/><br/>
-                A Nerdherd Pte. Ltd. event<br/>
-                <a class="terms" href="mailto:sponsors@cssconf.asia?subject=CSSConf.Asia Sponsorships">Sponsor inquiries</a><br/>
-                <a class="terms" href="http://2015.devfest.asia/code-of-conduct.html">Code of Conduct</a><br/><br/>
+                A Nerdherd Pte. Ltd. event
             </p>
-        </footer>
+          </footer>
     </section>
     
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>

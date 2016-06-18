@@ -34,11 +34,11 @@ var World = function () {
 
   World.prototype.addLight = function addLight() {
     var light1 = new THREE.PointLight(0xffffff, 1.1);
-    light1.position.set(0,0,-20);
+    light1.position.set(0,8,-20);
     this.scene.add(light1);
 
 	var light3 = new THREE.PointLight(0xffffff, 1.1);
-    light3.position.set(0,0,100);
+    light3.position.set(0,8,100);
     this.scene.add(light3);
 
     //var light2 = new THREE.AmbientLight(0x222222); // soft white light
@@ -69,7 +69,7 @@ var World = function () {
       circle.geometry.computeVertexNormals();
       this.scene.add(circle);
 
-    var bgSize = 220
+    var bgSize = 215
     var bg = new THREE.Mesh(
 		new THREE.PlaneBufferGeometry( bgSize, bgSize / 2048 * 1364 ),
 		new THREE.MeshPhongMaterial( {
@@ -81,7 +81,7 @@ var World = function () {
 		} )
 	);
 	bg.position.z = -20
-	bg.position.y = -6.5
+	bg.position.y = -2
 	bg.position.x = 0.5
 	this.scene.add(bg)
 
