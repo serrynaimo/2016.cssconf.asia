@@ -39,7 +39,7 @@
                 Capitol Theatre, Singapore
             </p>
             <p>
-                Ticket Sales start in<br/>
+                Ticket sales start in<br/>
                 <span id="countdown">&nbsp;</span>
             </p>
             <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia" target="_blank" class="button">
@@ -85,15 +85,15 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js"></script>
     <script src="https://cdn.rawgit.com/evanw/csg.js/master/csg.js"></script>
     <script src="https://cdn.rawgit.com/chandlerprall/ThreeCSG/master/ThreeCSG.js"></script>
+    <script src="./js/app.js"></script>
     <script src="./js/animation.js"></script>
-	<script src="./js/app.js"></script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-31025490-12', 'auto');
+  ga('create', 'UA-31025490-13', 'auto');
   ga('send', 'pageview');
 
 
@@ -134,12 +134,13 @@
           if(minutes < 10)
             minutes = "0" + minutes;
 
-            document.getElementById(id).innerHTML = (days > 0) ? days + ' days ' : ''
+            document.getElementById(id).innerHTML = (days > 0) ? days + ' days ' : '';
             document.getElementById(id).innerHTML += hours + ':' + minutes + ':' + seconds;
-        }
+        };
 
         timer = setInterval(showRemaining, 1000);
     }
+
     </script>
 </body>
 </html>

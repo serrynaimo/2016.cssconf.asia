@@ -78,3 +78,18 @@ $(window).on("scroll touchmove", function (e) {
 		menuVisible = false;
 	}
 });
+
+function detectSafari() {
+    var uag = window.navigator.userAgent;
+
+    if (uag.indexOf('iPhone') !== -1 && uag.indexOf('Safari') !== -1 && uag.indexOf('CriOS') === -1 && uag.indexOf('FxiOS') === -1) {
+      document.body.classList.add('dealWithMobileSafari')
+      window.dealWithMobileSafari = true
+    } else {
+      document.body.classList.remove('dealWithMobileSafari')
+      window.dealWithMobileSafari = false
+    }
+}
+
+window.onresize = detectSafari
+detectSafari()

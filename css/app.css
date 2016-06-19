@@ -12,6 +12,7 @@ a {
   color: #fff;
 }
 
+
 .button {
   border: 1px solid #c7950a;
   color: #fff;
@@ -312,5 +313,9 @@ a {
   min-width: 480px;
   max-width: 36%;
   margin-bottom: 80px;
+}
+
+.dealWithMobileSafari #intro {
+  height: 745px;
 }
 

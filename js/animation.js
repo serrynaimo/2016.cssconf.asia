@@ -1,5 +1,7 @@
 'use strict';
 
+console.log('Thanks to CJ Gammon for the inspiration and code help for the WebGL circle animation. Original Pen at http://codepen.io/cjgammon/pen/wGrLNR')
+
 var svgC = 'M155.822,621.614v35.641c0,63.02-20.772,95.024-60.55,95.99L64.7,753.987 c-35.979,0.874-53.251-27.04-53.251-83.723V339.952c0-56.674,17.273-92.129,53.251-106.942l30.572-12.587 c39.778-16.377,60.55,6.584,60.55,69.594v62.755l-50.901,15.381v-55.3c0-20.923-7.296-28.724-21.646-23.49l-9.351,3.411 c-12.276,4.478-18.323,16.774-18.323,36.951v331.512c0,20.185,6.047,29.842,18.323,28.967l11.834-0.843 c12.713-0.906,19.164-11.825,19.164-32.755v-29.143L155.822,621.614z'
 var svgCp = 'M104.922,368.153 153.529,371.285 203.098,357.596 155.822,352.772'
 var svgCs = 'M200.114,622.83v35.163c0,62.174-14.256,93.22-53.005,93.161l-63.474,2.854 c-35.095-0.054-48.111-30.971-48.111-86.974V340.692c0-55.993,43.931-111.701,79.026-125.234h26.879 c37.29-0.141,61.669,18.061,61.669,80.226v61.913l-49.568,13.689v-54.586c0-20.652-4.126-28.572-18.112-23.835l-9.116,3.088 c-11.969,4.054-35.766,16.016-35.766,35.943V659.28c0,19.934,23.797,29.628,35.766,29.085l11.535-0.523 c12.39-0.562,9.726-11.172,9.726-31.832l8.26-34.396L200.114,622.83z'
@@ -123,12 +125,13 @@ var World = function () {
   };
 
   World.prototype.resize = function resize() {
-  	var height = Math.max(window.innerHeight, 620)
-    this.camera = new THREE.PerspectiveCamera(35, window.innerWidth / height, 0.1, 1000);
+  	var height = window.dealWithMobileSafari ? 745 : Math.max(window.innerHeight, 660)
+  	var width = window.dealWithMobileSafari ? 500 : window.innerWidth;
+    this.camera = new THREE.PerspectiveCamera(35, width / height, 0.1, 1000);
     this.camera.position.z = 100;
     this.camera.position.y = -8;
 
-    this.renderer.setSize(window.innerWidth, height);
+    this.renderer.setSize(width, height);
   };
 
   World.prototype.createShape = function ( shape, color, x, y, z, rx, ry, rz, s ) {
