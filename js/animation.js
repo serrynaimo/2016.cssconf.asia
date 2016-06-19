@@ -95,7 +95,7 @@ var World = function () {
 	bg.position.z = -20
 	bg.position.y = -2
 	bg.position.x = 0.5
-	//this.scene.add(bg)
+	this.scene.add(bg)
 
 	var letterCs = this.createShape(this.transformSVGPath(svgCs), 0xEDB928, -7, 8, 0, Math.PI, 0, 0, 0.02)
 	this.scene.add( letterCs )
