@@ -14,7 +14,7 @@
 	<meta charset="UTF-8">
 	<title>CSSConf.Asia Singapore 2016</title>
 	<link href='//fonts.googleapis.com/css?family=Open+Sans|Sanchez|Great+Vibes' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app.css" />
+	<link rel="stylesheet" type="text/css" href="css/app1.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
 	<meta name="viewport" content="width=500" />
@@ -39,10 +39,13 @@
                 Capitol Theatre, Singapore
             </p>
             <p>
-                Ticket sales start in<br/>
+                Ticket sales start<br/>
                 <span id="countdown">&nbsp;</span>
             </p>
-            <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia" target="_blank" class="button">
+            <a href="https://www.eventnook.com/event/devfestasia2016/home" target="_blank" class="button">
+                Get your tickets
+            </a>
+            <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia" target="_blank" class="hint">
                 Submit a talk proposal
             </a>
 	    </div>
@@ -119,7 +122,7 @@
             if (distance < 0) {
 
                 clearInterval(timer);
-                document.getElementById(id).innerHTML = '';
+                document.getElementById(id).innerHTML = 'now!';
 
                 return;
             }

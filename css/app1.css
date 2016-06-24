@@ -33,6 +33,16 @@ a {
   background: linear-gradient(top left, rgba(127, 102, 0, 0.1), rgba(133, 28, 80, 0.2));
 }
 
+.hint {
+  position: relative;
+  top: 10px;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+.hint:hover {
+  text-decoration: underline;
+}
+
 .button:hover {
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
