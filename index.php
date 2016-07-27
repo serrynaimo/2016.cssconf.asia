@@ -58,24 +58,26 @@
         </form>
         <footer>
           <div>
-            <p>
-              <a href="https://2016.devfest.asia" style="border: none"><img src="//2016.jsconf.asia/img/devfest2016.png" height="100" alt="Singapore DevFest.Asia 2016"/></a>
-              <br/><br/>
-              CSSConf.Asia 2016 Singapore is part of DevFest.Asia,<br/>Southeast Asia’s community organized<br/>web developer festival
-            </p>
-          </div>
-          <div>
-            <ul>
-              <li><a href="http://cssconf.org">CSSConf world-wide</a></li>
-              <li><a href="https://2015.cssconf.asia" target="_blank">CSSConf.Asia 2015</a> - <a href="https://2014.cssconf.asia" target="_blank">2014</a></li>
-              <li><a href="mailto:sponsors@jsconf.asia?subject=CSSConf.Asia 2016 Sponsorship">Sponsorship Inquiry</a></li>
-              <li><a href="https://twitter.com/cssconfasia">Twitter</a></li>
-              <li><a href="https://facebook.com/cssconfasia">Facebook</a></li>
-              <li><a href="https://2015.devfest.asia/code-of-conduct.html">Code of Conduct</a></li>
-             </ul>
+            <div>
+              <p>
+                <a href="https://2016.devfest.asia" style="border: none"><img src="//2016.jsconf.asia/img/devfest2016.png" height="100" alt="Singapore DevFest.Asia 2016"/></a>
+                <br/><br/>
+                CSSConf.Asia 2016 Singapore is part of DevFest.Asia,<br/>Southeast Asia’s community organized<br/>web developer festival
+              </p>
+            </div>
+            <div>
+              <ul>
+                <li><a href="http://cssconf.org">CSSConf world-wide</a></li>
+                <li><a href="https://2015.cssconf.asia" target="_blank">CSSConf.Asia 2015</a> - <a href="https://2014.cssconf.asia" target="_blank">2014</a></li>
+                <li><a href="mailto:sponsors@jsconf.asia?subject=CSSConf.Asia 2016 Sponsorship">Sponsorship Inquiry</a></li>
+                <li><a href="https://twitter.com/cssconfasia">Twitter</a></li>
+                <li><a href="https://facebook.com/cssconfasia">Facebook</a></li>
+                <li><a href="https://2015.devfest.asia/code-of-conduct.html">Code of Conduct</a></li>
+               </ul>
+              </div>
             </div>
             <p>
-                A Nerdherd Pte. Ltd. event
+                A Nerdherd Pte. Ltd. event<br/><br/><br/><br/><br/>
             </p>
           </footer>
     </section>
