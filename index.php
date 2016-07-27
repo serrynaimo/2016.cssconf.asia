@@ -39,7 +39,7 @@
                 Capitol Theatre, Singapore
             </p>
             <p>
-                Ticket sales start<br/>
+                Ticket prices increase<br/>
                 <span id="countdown">&nbsp;</span>
             </p>
             <a href="https://www.eventnook.com/event/devfestasia2016/home" target="_blank" class="button">
@@ -102,7 +102,7 @@
   ga('send', 'pageview');
 
 
-   CountDownTimer('Fri, 24 Jun 2016 14:00:00 +0800', 'countdown');
+   CountDownTimer('Wed, 24 Aug 2016 00:00:00 +0800', 'countdown');
 
     function CountDownTimer(dt, id)
     {
