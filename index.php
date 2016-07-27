@@ -72,7 +72,7 @@
                 <li><a href="mailto:sponsors@jsconf.asia?subject=CSSConf.Asia 2016 Sponsorship">Sponsorship Inquiry</a></li>
                 <li><a href="https://twitter.com/cssconfasia">Twitter</a></li>
                 <li><a href="https://facebook.com/cssconfasia">Facebook</a></li>
-                <li><a href="https://2015.devfest.asia/code-of-conduct.html">Code of Conduct</a></li>
+                <li><a href="https://2016.devfest.asia/code-of-conduct">Code of Conduct</a></li>
                </ul>
               </div>
             </div>
