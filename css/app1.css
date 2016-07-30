@@ -224,7 +224,7 @@ a {
 
 .speaker .bio {
   opacity: 0;
-  font-family: 'Consolas', 'Courier', monospace;
+  font-family: 'Sanchez', 'Consolas', Courier, monospace;
   color: #eee;
   margin-left: 195px;
   width: 280px;
@@ -444,12 +444,15 @@ a {
 
 #body footer {
   padding: 80px 0 0;
+}
+
+#body footer > div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-#body footer > * {
+#body footer > div > * {
   min-width: 480px;
   max-width: 36%;
   margin-bottom: 80px;

@@ -43,41 +43,26 @@ $("#subscribeForm .msg").click(function() {
 	$("#subscribeForm input[name='email']").focus();
 });
 
-$currentSpeaker = $();
-$('.speaker').click(function(e) {
-	if($(e.currentTarget).is('a')) {
-		return;
-	}
-	if($(e.currentTarget).hasClass('open')) {
-		$(e.currentTarget).removeClass('open');
-	}
-	else {
-		if($currentSpeaker.hasClass('open')) {
-			$currentSpeaker.removeClass('open');
-		}
-		$(e.currentTarget).addClass('open');
-	}
 
-	$currentSpeaker = $(e.currentTarget);
+$(".speaker").mouseenter(function(event) {
+	var $bio = $(this).find('.bio');
+	var strings = $bio.data('strings') || [];
+	if(!strings.length) {
+		$bio.children().each(function () {
+			console.log($(this).text());
+			strings.push($(this).text());
+		});
+		$bio.data('strings', strings)
+	}
+	$bio.typed({
+		strings: strings,
+		backSpeed: -5000,
+		backDelay: 1600,
+		showCursor: false,
+		typeSpeed: -100
+	});
 });
 
-setTimeout(function() {
-	$("body").removeClass("loading");
-}, 1400);
-
-
-var menuVisible = false
-var fromTop = 200;
-$(window).on("scroll touchmove", function (e) {
-	if(window.pageYOffset > fromTop + 60 && !menuVisible) {
-		menuVisible = true;
-		$("body").addClass("visible");
-	}
-	else if(window.pageYOffset <= fromTop && menuVisible) {
-		$("body").removeClass("visible");
-		menuVisible = false;
-	}
-});
 
 function detectSafari() {
     var uag = window.navigator.userAgent;
