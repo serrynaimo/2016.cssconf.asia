@@ -57,7 +57,7 @@ $(".speaker").mouseenter(function(event) {
 	$bio.typed({
 		strings: strings,
 		backSpeed: -5000,
-		backDelay: 1600,
+		backDelay: 1800,
 		showCursor: false,
 		typeSpeed: -100
 	});
