@@ -129,6 +129,136 @@ a {
   font-size: 0.8em;
 }
 
+
+
+
+
+#updates {
+  padding: 50px 0;
+}
+
+#updates p {
+  font-size: 0.9em;
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+}
+
+#updates p a {
+  color: #ddd;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  height: 185px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  -webkit-transform: translateZ(1px);
+  -moz-transform: translateZ(1px);
+  transform: translateZ(1px);
+  perspective-origin: 50% 50%;
+  perspective: 800px;
+}
+
+.speaker {
+  overflow: hidden;
+}
+
+.speaker .bg {
+  position: absolute;
+  width: 100%;
+  margin: -155px 0;
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  filter: blur(15px);
+  transition: all .2s ease-out;
+  opacity: 0.1;
+}
+
+.speaker .pic {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+  transition: all .2s ease-out;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #EDB928, 0 0 0 5px #000, 0 0 0 8px #c7950a, 0 0 0 10px #000, 0 0 0 13px #851c50;
+}
+
+.speaker h3 {
+  font-family: 'Great Vibes', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 2.2em;
+  color: #fff;
+  position: absolute;
+  top: 33px;
+  left: 200px;
+  width: 250px;
+  transition: all .2s ease-out;
+}
+
+.speaker .title {
+  position: absolute;
+  font-family: 'Sanchez', 'Times New Roman', serif;
+  text-transform: uppercase;
+  top: 100px;
+  left: 220px;
+  width: 240px;
+  color: #c7950a;
+  transition: all .2s ease-out;
+}
+
+.speaker .bio p {
+  display: none;
+}
+
+.speaker .bio {
+  opacity: 0;
+  font-family: 'Consolas', 'Courier', monospace;
+  color: #eee;
+  margin-left: 195px;
+  width: 280px;
+}
+
+
+.speaker:hover .bg {
+  opacity: 0.2;
+}
+
+.speaker:hover .pic {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.speaker:hover h3 {
+  opacity: 0;
+}
+
+.speaker:hover .title {
+  opacity: 0;
+}
+
+.speaker:hover .bio {
+  opacity: 1;
+}
+
+
+
+
+
+
+
 #subscribeForm {
   display: block;
   width: 480px;

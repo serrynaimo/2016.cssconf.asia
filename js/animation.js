@@ -120,7 +120,7 @@ var World = function () {
   };
 
   World.prototype.render = function render() {
-    requestAnimationFrame(this.render.bind(this));
+    //requestAnimationFrame(this.render.bind(this));
     this.renderer.render(this.scene, this.camera);
   };
 
