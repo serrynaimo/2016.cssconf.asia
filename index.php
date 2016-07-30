@@ -62,7 +62,7 @@
           <h3>Rachel Andrew</h3>
           <span class="title">Griddy CSS Developer</span>
           <div class="bio">
-            <p>Rachel Andrew is a front and back-end web developer, author and speaker. &gt;&gt;</p>
+            <p>Rachel is a front and back-end web developer, author and speaker. &gt;&gt;</p>
             <p>Her books include the recent Get Ready for CSS Grid Layout and she is a regular contributor to a number of publications both on and offline. &gt;&gt;</p>
             <p>Rachel is co-founder of the CMS Perch, a Google Developer Expert and an Invited Expert to the CSS Working Group. &gt;&gt;</p>
             <p>She writes about business and technology on her own site at rachelandrew.co.uk.</p>
