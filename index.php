@@ -46,7 +46,7 @@
                 Get your tickets
             </a>
             <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia" target="_blank" class="hint">
-                Submit a talk proposal
+                Recommend a speaker or attendee
             </a>
 	    </div>
 	</section>
