@@ -88,9 +88,9 @@
           <h3>Chris Lienert</h3>
           <span class="title">&lt;form&gt; &amp; Accessibility</span>
           <div class="bio">
-            <p>Chris started out as a web developer when Netscape ruled the world and is currently senior consultant at insurance broker JLT. &gt;&gt;</p>
+            <p>Chris started out as a web developer when Netscape ruled the world and is currently working as an engineering manager at CXA. &gt;&gt;</p>
             <p>He founded community group Singapore CSS because someone had to. ;) &gt;&gt;</p>
-            <p>Aside from musical distractions and accumulating frequent flyer points, Chris and his wife Sarah can be found in the company of their very small human.</p>
+            <p>Aside from musical distractions and accumulating frequent flyer points, Chris and his wife Sarah can be found in the company of their small human.</p>
           </div>
         </div>
 
