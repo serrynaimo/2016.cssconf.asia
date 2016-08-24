@@ -110,7 +110,7 @@
           <img src="img/neha.jpg" class="bg" />
           <a href="https://twitter.com/hellonehha" target="_blank"><img src="img/neha.jpg" class="pic" /></a>
           <h3>Neha Sharma</h3>
-          <span class="title">JS Lover</span>
+          <span class="title">Web Lover</span>
           <div class="bio">
             <p>Neha hails from New Delhi, India and is working as UI tech lead full time at Toasterco. &gt;&gt;</p>
             <p>She is a tech speaker and the organizer of the JSLovers community for web lovers. &gt;&gt;</p>
