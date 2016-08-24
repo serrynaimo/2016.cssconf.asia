@@ -94,17 +94,42 @@
           </div>
         </div>
 
-        <!--<div class="card speaker">
-          <img src="img/mattmckegg.jpg" class="bg" />
-          <a href="https://twitter.com/mattmckegg" target="_blank"><img src="img/mattmckegg.jpg" class="pic" /></a>
-          <h3>Matt McKegg</h3>
-          <span class="title">Music Button</span>
+        <div class="card speaker">
+          <img src="img/kenneth.jpg" class="bg" />
+          <a href="http://kennethormandy.com" target="_blank"><img src="img/kenneth.jpg" class="pic" /></a>
+          <h3>Kenneth Ormandy</h3>
+          <span class="title">Web Type Specialist</span>
           <div class="bio">
-            <p>Back for his second time at JSConf.Asia, Matt is a JavaScript hacker and backyard musician and from Wellington, New Zealand. &gt;&gt;</p>
-            <p>He is a lover of all things open and modular and spends most of his time pressing buttons of various shapes, sizes and colours. &gt;&gt;</p>
-            <p>Sometimes these buttons make sounds.</p>
+            <p>Kenneth is an independent designer specialising in web typography. &gt;&gt;</p>
+            <p>He organises Vancouver’s typography meetup Type Brigade, and contributes to The Lost Type Co-op. &gt;&gt;</p>
+            <p>Previously he studied type design at Type@Paris, and helped launch the front-end development tool Surge.sh.</p>
           </div>
-        </div>//-->
+        </div>
+
+        <div class="card speaker">
+          <img src="img/neha.jpg" class="bg" />
+          <a href="https://twitter.com/hellonehha" target="_blank"><img src="img/neha.jpg" class="pic" /></a>
+          <h3>Neha Sharma</h3>
+          <span class="title">JS Lover</span>
+          <div class="bio">
+            <p>Neha hails from New Delhi, India and is working as UI tech lead full time at Toasterco. &gt;&gt;</p>
+            <p>She is a tech speaker and the organizer of the JSLovers community for web lovers. &gt;&gt;</p>
+            <p>When she is not coding or speaking at meetups she doodles. You can follow her at @hellonehha</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/hyojin.jpg" class="bg" />
+          <img src="img/hyojin.jpg" class="pic" />
+          <h3>Hyojin Song</h3>
+          <span class="title">CSS Round Peg</span>
+          <div class="bio">
+            <p>Hyojin is a W3C advisory committee representative on behalf of LG Electronics. &gt;&gt;</p>
+            <p>He loves working on new web technology regarding web engine and framework. &gt;&gt;</p>
+            <p>He initiated the CSS Round Display and developed the specification as an co-editor in the CSS Working Group. &gt;&gt;</p>
+            <p>He loves traveling, surfing, and table tennis.</p>
+          </div>
+        </div>
       </div><br/><br/>
 
       <p>
@@ -166,7 +191,7 @@
   ga('send', 'pageview');
 
 
-   CountDownTimer('Wed, 24 Aug 2016 00:00:00 +0800', 'countdown');
+   CountDownTimer('Sat, 24 Sep 2016 00:00:00 +0800', 'countdown');
 
     function CountDownTimer(dt, id)
     {
