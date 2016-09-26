@@ -191,7 +191,7 @@
   ga('send', 'pageview');
 
 
-   CountDownTimer('Sat, 24 Sep 2016 00:00:00 +0800', 'countdown');
+   CountDownTimer('Mon, 24 Oct 2016 00:00:00 +0800', 'countdown');
 
     function CountDownTimer(dt, id)
     {
