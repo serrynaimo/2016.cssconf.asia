@@ -130,6 +130,45 @@
             <p>He loves traveling, surfing, and table tennis.</p>
           </div>
         </div>
+
+        <div class="card speaker">
+          <img src="img/soledad.jpg" class="bg" />
+          <a href="https://twitter.com/hellonehha" target="_blank"><img src="img/soledad.jpg" class="pic" /></a>
+          <h3>Soledad Penadés</h3>
+          <span class="title">Browser Breaker</span>
+          <div class="bio">
+            <p>Sole has been building real time stuff for longer than she can remember. &gt;&gt;</p>
+            <p>She works at Mozilla, helping making the Web the best platform (in general) and the best platform for realtime (in particular). &gt;&gt;</p>
+            <p>She writes demos to test and spread awareness about new features, often involving Web Audio, WebGL, GIFs and/or cats. &gt;&gt;</p>
+            <p>In the process she breaks various browsers and reports an unspeakable number of strange edge cases, all in pursuit of a robust platform that is a joy to develop for.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/michael.jpg" class="bg" />
+          <a href="https://twitter.com/xzyfer" target="_blank"><img src="img/michael.jpg" class="pic" /></a>
+          <h3>Micheal Mifsud</h3>
+          <span class="title">Sass Performance Engineer</span>
+          <div class="bio">
+            <p>Michael is a performance engineer at 99designs focusing primarily on frontend architecture, tooling, and site performance. &gt;&gt;</p>
+            <p>An advocate for open source software he's currently the project lead for Node Sass and a core contributor to LibSass. &gt;&gt;</p>
+            <p>He's also heavily involved in the local developer community as part of the CSSConf AU and the MelbCSS meetup organising teams.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/leaverou.jpg" class="bg" />
+          <a href="http://lea.verou.me" target="_blank"><img src="img/leaverou.jpg" class="pic" /></a>
+          <h3>Lea Verou</h3>
+          <span class="title">CSS Fixture</span>
+          <div class="bio">
+            <p>Lea is currently busy doing research in Human-Computer Interaction at MIT CSAIL. &gt;&gt;</p>
+            <p>She has previously written a bestselling CSS book for O’Reilly (CSS Secrets) and worked as a Developer Advocate at W3C. &gt;&gt;</p>
+            <p>She has a long-standing passion for open web standards, and is one of the few Invited Experts in the CSS Working Group. &gt;&gt;</p>
+            <p>Lea has also started several popular open source projects and web applications, such as Prism, Dabblet and -prefix-free and maintains a technical blog at lea.verou.me. &gt;&gt;</p>
+            <p>Despite her academic pursuits in Computer Science, Lea is one of the few misfits who love code and design equally.</p>
+          </div>
+        </div>
       </div><br/><br/>
 
       <p>
