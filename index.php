@@ -147,7 +147,7 @@
         <div class="card speaker">
           <img src="img/michael.jpg" class="bg" />
           <a href="https://twitter.com/xzyfer" target="_blank"><img src="img/michael.jpg" class="pic" /></a>
-          <h3>Micheal Mifsud</h3>
+          <h3>Michael Mifsud</h3>
           <span class="title">Sass Performance Engineer</span>
           <div class="bio">
             <p>Michael is a performance engineer at 99designs focusing primarily on frontend architecture, tooling, and site performance. &gt;&gt;</p>
