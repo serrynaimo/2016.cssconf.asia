@@ -130,134 +130,21 @@ a {
 }
 
 
-
-
-
-#updates {
-  padding: 90px 0 50px;
-}
-
-#updates p {
-  font-size: 0.9em;
+#sponsors {
+  padding-top: 100px;
   text-align: center;
-  margin: 0 auto;
-  width: 500px;
 }
 
-#updates p a {
-  color: #ddd;
+#sponsors img {
+  height: 30px;
+  opacity: 0.7;
+  margin: 15px 25px 0;
+  vertical-align: middle;
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+#sponsors a:hover img {
+  opacity: 0.9;
 }
-
-.card {
-  position: relative;
-  height: 185px;
-  width: 500px;
-  display: flex;
-  align-items: center;
-  -webkit-transform: translateZ(1px);
-  -moz-transform: translateZ(1px);
-  transform: translateZ(1px);
-  perspective-origin: 50% 50%;
-  perspective: 800px;
-}
-
-.speaker {
-  
-}
-
-.speaker .bg {
-  position: absolute;
-  right: 0;
-  width: 70%;
-  margin: -80px 0;
-  -webkit-filter: blur(25px);
-  -moz-filter: blur(25px);
-  filter: blur(25px);
-  transition: all .2s ease-out;
-  opacity: 0;
-  border-radius: 80%;
-}
-
-.speaker .pic {
-  position: absolute;
-  top: 20px;
-  left: 25px;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  transform: scale(1);
-  transition: all .2s ease-out;
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px #000, 0 0 0 6px #EDB928, 0 0 0 8px #000, 0 0 0 11px #c7950a, 0 0 0 13px #000, 0 0 0 16px #851c50;
-}
-
-.speaker h3 {
-  font-family: 'Great Vibes', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 2.2em;
-  color: #fff;
-  position: absolute;
-  top: 33px;
-  left: 200px;
-  width: 250px;
-  transition: all .2s ease-out;
-}
-
-.speaker .title {
-  position: absolute;
-  font-family: 'Sanchez', 'Times New Roman', serif;
-  text-transform: uppercase;
-  top: 100px;
-  left: 220px;
-  width: 240px;
-  color: #c7950a;
-  transition: all .2s ease-out;
-}
-
-.speaker .bio p {
-  display: none;
-}
-
-.speaker .bio {
-  opacity: 0;
-  font-family: 'Sanchez', 'Consolas', Courier, monospace;
-  color: #eee;
-  margin-left: 195px;
-  width: 280px;
-}
-
-
-.speaker:hover .bg {
-  opacity: 0.12;
-}
-
-.speaker:hover .pic {
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-.speaker:hover h3 {
-  opacity: 0;
-}
-
-.speaker:hover .title {
-  opacity: 0;
-}
-
-.speaker:hover .bio {
-  opacity: 1;
-}
-
-
-
-
 
 
 
@@ -446,7 +333,208 @@ a {
 
 #body footer {
   padding: 80px 0 0;
+  background-image: linear-gradient(top, transparent 0%, black 15%);
+  background-image: -moz-linear-gradient(top, transparent 0%, black 15%);
+  background-image: -webkit-linear-gradient(top, transparent 0%, black 15%);
 }
+
+
+
+#schedule {
+  padding-top: 60px;
+}
+
+#schedule .column {
+  margin: 0 auto;
+  position: relative;
+  width: 480px;
+}
+
+#schedule .column + .column {
+  margin-top: -20px;
+}
+
+#schedule .column + .column:after {
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: 110px;
+  width: 0px;
+  height: 80px;
+  border-left: 1px dotted #fff;
+  z-index: 8;
+}
+
+#schedule .column:before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 110px;
+  width: 0px;
+  bottom: 14px;
+  border-left: 1px dotted #fff;
+  z-index: 8;
+}
+
+#schedule .speaker {
+  position: relative;
+  z-index: 10;
+}
+
+#schedule .speaker:not(.break) {
+  cursor: pointer;
+}
+
+#schedule .speaker.break:before, #schedule .speaker.dot:before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 106px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #c7950a;
+}
+
+#schedule .speaker.break h3 {
+  font-family: 'Open Sans';
+  font-size: 0.85em;
+  font-weight: 300;
+  color: white;
+  padding-top: 23px;
+}
+
+#schedule .speaker span {
+  float: left;
+  width: 65px;
+  font-size: 0.8em;
+  text-align: right;
+  margin-top: 25px;
+  color: #c7950a;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+  transition: none;
+}
+
+#schedule .speaker.open span {
+  transition: all .1s ease-out;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0);
+}
+
+#schedule .speaker img {
+  float: left;
+  height: 70px;
+  width: 70px;
+  margin-left: 8px;
+  margin-right: 10px;
+  border-radius: 38px;
+  border: 3px solid #c7950a;
+  box-shadow: 0 0 3px 3px #851c50;
+  -webkit-filter: saturation(0.6) contrast(1.4);
+  -moz-filter: saturation(0.6) contrast(1.4);
+  filter: saturation(0.6) contrast(1.4);
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: all .1s ease-in;
+}
+
+#schedule .speaker:hover img, #schedule .speaker.open img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+#schedule .speaker h3 {
+  margin-top: 0;
+  font-size: 1em;
+  text-transform: none;
+  letter-spacing: 0px;
+  color: #c7950a;
+  font-family: 'Sanchez';
+}
+
+#schedule .speaker h4 {
+  margin-top: 50px;
+  padding-top: 20px;
+  font-size: 1.6em;
+  font-family: 'Great Vibes';
+  color: white;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+#schedule .speaker h4, #schedule .speaker h3, #schedule .speaker p {
+  margin-left: 130px;
+  padding-left: 30px;
+  width: 320px;
+}
+
+#schedule .speaker p {
+  margin-bottom: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all .1s ease-out;
+  text-align: left;
+}
+
+#schedule .speaker.open p {
+  margin-bottom: 25px;
+  height: auto;
+  opacity: 1;
+  overflow: auto;
+}
+
+#schedule .speaker p + p {
+  font-style: italic;
+}
+
+#schedule .speaker h4 a {
+  font-size: .5em;
+  font-weight: 300;
+  color: #c7950a;
+  font-family: 'Open Sans';
+  text-transform: none;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+#schedule .speaker h4 a:hover {
+  color: #fff;
+  text-shadow: 1px 1px 0 #c7950a;
+}
+
+@media all and (min-width: 1020px) {
+  #schedule {
+    width: 1020px;
+    margin: 0 auto;
+  }
+
+  #schedule .column {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+    margin: -30px 0 -10px 20px;
+  }
+
+  #schedule .column:before {
+    top: 80px;
+    bottom: 29px;
+  }
+
+  #schedule .column + .column:after {
+    display: none;
+  }
+
+}
+
+
+
 
 #body footer > div {
   display: flex;

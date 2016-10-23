@@ -64,6 +64,25 @@ $(".speaker").mouseenter(function(event) {
 });
 
 
+$currentSpeaker = $();
+$('.speaker').click(function(e) {
+	if($(e.currentTarget).is('a')) {
+		return;
+	}
+	if($(e.currentTarget).hasClass('open')) {
+		$(e.currentTarget).removeClass('open');
+	}
+	else {
+		if($currentSpeaker.hasClass('open')) {
+			$currentSpeaker.removeClass('open');
+		}
+		$(e.currentTarget).addClass('open');
+	}
+
+	$currentSpeaker = $(e.currentTarget);
+});
+
+
 function detectSafari() {
     var uag = window.navigator.userAgent;
 
