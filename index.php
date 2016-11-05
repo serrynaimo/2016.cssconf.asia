@@ -63,7 +63,7 @@
               <h4></h4>
               <h3>With Aysha Anggraini &amp; Zell Liew</h3>
               <p style='opacity: 1; height: auto'>
-                Doors open from on 8am
+                Doors open from on 8AM
               </p>
           </div>
           <div class="speaker">
