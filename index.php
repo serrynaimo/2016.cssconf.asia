@@ -14,7 +14,7 @@
 	<meta charset="UTF-8">
 	<title>CSSConf.Asia Singapore 2016</title>
 	<link href='//fonts.googleapis.com/css?family=Open+Sans|Sanchez|Great+Vibes' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app3.css" />
+	<link rel="stylesheet" type="text/css" href="css/app4.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
 	<meta name="viewport" content="width=500" />
@@ -325,7 +325,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js"></script>
     <script src="https://cdn.rawgit.com/evanw/csg.js/master/csg.js"></script>
     <script src="https://cdn.rawgit.com/chandlerprall/ThreeCSG/master/ThreeCSG.js"></script>
-    <script src="./js/app4.js"></script>
+    <script src="./js/app3.js"></script>
     <script src="./js/animation.js"></script>
 
     <script>
