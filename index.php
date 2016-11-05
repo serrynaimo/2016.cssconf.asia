@@ -65,6 +65,12 @@
               <p style='opacity: 1; height: auto'>
                 Doors open from on 8AM
               </p>
+              <p>
+                <b>Please bring your order confirmation PDF with the QR code and a photo ID for registration.</b><br/><br/>
+                Aysha is a front-end engineer and wannabe designer at Viki, where she works closely with the UX team in order to build functional and beautiful UIs on viki.com and Viki's internal tools. When she is not super busy (which is rare these days), she either writes about geeky stuff on her blog renaysha.me or build experimental and pretty things on CodePen (codepen.io/rrenula). She loves design, gaming, dancing, and Yoga.
+                <br/><br/>
+                Zell is a freelance web developer based in Singapore. He loves working on the web so much that he spends all his free time diving deep into tools and frameworks to find out the best ways to work with them. He then shares everything he learned on zell-weekeat.com. He also authored the books ’Learning Susy’ and ’Automating Your Workflow with Gulp’.
+              </p>
           </div>
           <div class="speaker">
               <span>9 AM</span>
