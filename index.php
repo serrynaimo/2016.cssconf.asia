@@ -326,7 +326,7 @@
     <script src="https://cdn.rawgit.com/evanw/csg.js/master/csg.js"></script>
     <script src="https://cdn.rawgit.com/chandlerprall/ThreeCSG/master/ThreeCSG.js"></script>
     <script src="./js/app3.js"></script>
-    <!script src="./js/animation.js"></script>
+    <script src="./js/animation.js"></script>
 
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
