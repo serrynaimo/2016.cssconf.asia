@@ -325,7 +325,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js"></script>
     <script src="https://cdn.rawgit.com/evanw/csg.js/master/csg.js"></script>
     <script src="https://cdn.rawgit.com/chandlerprall/ThreeCSG/master/ThreeCSG.js"></script>
-    <script src="./js/app3.js"></script>
+    <script src="./js/app4.js"></script>
     <script src="./js/animation.js"></script>
 
     <script>
