@@ -440,6 +440,11 @@ a {
   transition: all .1s ease-in;
 }
 
+
+#schedule .speaker img + img {
+    margin-left: -20px;
+}
+
 #schedule .speaker:hover img, #schedule .speaker.open img {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);

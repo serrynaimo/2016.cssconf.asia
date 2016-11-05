@@ -58,6 +58,14 @@
 
       <br/><br/><br/>
       <div class="column">
+              <div class="speaker">
+              <img src="img/aysha.jpg" /><img src="img/zell.jpg" />
+              <h4></h4>
+              <h3>With Aysha Anggraini &amp; Zell Liew</h3>
+              <p style='opacity: 1; height: auto'>
+                Doors open from on 8am
+              </p>
+          </div>
           <div class="speaker">
               <span>9 AM</span>
               <img src="img/rachelandrew.jpg" />
@@ -145,11 +153,13 @@
                   Sarah loves SVG, informative animation, and welding together pieces of the DOM.
               </p>
           </div>
-          <!--<div class="speaker">
+      </div>
+      <div class="column">
+          <div class="speaker">
               <span>1:30 PM</span>
               <img src="img/chris_lilley.jpg" />
               <h4>Chris Lilley <a href="https://twitter.com/svgeesus" target="_blank">@svgeesus</a></h4>
-              <h3></h3>
+              <h3>CSS4 Colors</h3>
               <p>
                   
               </p>
@@ -161,9 +171,7 @@
                   trying to get Color Management on the Web, sigh. Currently working on
                   CSS levels 3/4/5 (no, really), Web Audio, and WOFF2.
               </p>
-          </div>//-->
-      </div>
-      <div class="column">
+          </div>
           <div class="speaker">
               <span>2 PM</span>
               <img src="img/hjchen.jpg" />
@@ -179,22 +187,6 @@
           </div>
           <div class="speaker">
               <span>2:15 PM</span>
-              <img src="img/hyojin.jpg" />
-              <h4>Hyojin Song</h4>
-              <h3>CSS - Beyond The Box</h3>
-              <p>
-                  Web-based platforms have been recently adopted by major manufacturers. (LG, Samsung, Panasonic) The target devices using the web-based platform are as follows: TV, watch, signage, IVI system, camera, etc. More and more devices would use the web-based platforms, so web technology (HTML, CSS, JS) will be more important to support the upcoming devices with various display shapes.<br/>
-                  CSS has been developed for many years, and now it would have to be ready to support novel devices with various display shapes. There should need CSS extensions to support the use cases in the near future. I would like to show the motivation with several examples and introduce potential ideas.<br/>
-                  LG made smart watch products based on webOS platform named as LG G Watch R, LG Watch Urbane LTE. Therefore, I have been considering how I make a web application to be well rendered into a rounded display for a couple of years. It could be expanded to other display shapes such as car dashboard, bended display. CSS isn't bound in the box any more!
-              </p>
-              <p>
-                  Hyojin is a W3C advisory committee representative on behalf of LG Electronics.<br/>
-                  He loves working on new web technology regarding web engine and framework, initiated the CSS Round Display and developed the specification as an co-editor in the CSS Working Group.<br/>
-                  He loves traveling, surfing, and table tennis.</p>
-              </p>
-          </div>
-          <div class="speaker">
-              <span>2:30 PM</span>
               <img src="img/neha.jpg" />
               <h4>Neha Sharma <a href="https://twitter.com/hellonehha" target="_blank">@hellonehha</a></h4>
               <h3>Ten Places Where You Can Ditch JS</h3>
@@ -208,7 +200,7 @@
               </p>
           </div>
           <div class="speaker">
-              <span>2:45 PM</span>
+              <span>2:30 PM</span>
               <img src="img/shiya.jpg" />
               <h4>Shiya Luo <a href="https://twitter.com/shiyaluo" target="_blank">@shiyaluo</a></h4>
               <h3>3D on the web</h3>
@@ -220,7 +212,7 @@
               </p>
           </div>
           <div class="speaker break">
-              <span>3 PM</span>
+              <span>2:45 PM</span>
               <h3>Lightning Talks / Break</h3>
           </div>
           <div class="speaker">
@@ -334,7 +326,7 @@
     <script src="https://cdn.rawgit.com/evanw/csg.js/master/csg.js"></script>
     <script src="https://cdn.rawgit.com/chandlerprall/ThreeCSG/master/ThreeCSG.js"></script>
     <script src="./js/app3.js"></script>
-    <script src="./js/animation.js"></script>
+    <!script src="./js/animation.js"></script>
 
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
