@@ -209,7 +209,7 @@
               <span>2:30 PM</span>
               <img src="img/shiya.jpg" />
               <h4>Shiya Luo <a href="https://twitter.com/shiyaluo" target="_blank">@shiyaluo</a></h4>
-              <h3>3D on the web</h3>
+              <h3>3D On The Web</h3>
               <p>
                   What are the latest trends in developing immersive visual 3D experiences in the browser and what can a JavaScript developer start working on after hearing this talk.
               </p>
