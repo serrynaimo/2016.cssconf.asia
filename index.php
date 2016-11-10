@@ -268,6 +268,7 @@
       </p>
       <a href="https://braintreepayments.com" target="_blank"><img src="img/braintree.png" /></a>
       <a href="https://hired.com" target="_blank"><img src="img/hired.png" /></a>
+      <a href="http://www.singaporepower.com.sg/irj/portal?NavigationTarget=navurl://acaf1b918fe1d6c08ca5ccb9d52a2ee6&windowId=undefined" target="_blank"><img src="img/sp.png" style="height: 45px;" /></a>
       <a href="https://mozilla.com" target="_blank"><img src="img/mozilla.png" /></a>
       <a href="https://www.microsoft.com/en-sg/windows/microsoft-edge" target="_blank"><img src="img/microsoft.png" /></a>
       <a href="http://www.clubmate.sg" target="_blank"><img src="img/clubmate.png" style="height: 55px;"/></a>
