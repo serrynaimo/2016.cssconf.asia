@@ -165,9 +165,9 @@
               <span>1:30 PM</span>
               <img src="img/chris_lilley.jpg" />
               <h4>Chris Lilley <a href="https://twitter.com/svgeesus" target="_blank">@svgeesus</a></h4>
-              <h3>CSS4 Colors</h3>
+              <h3>The Evolution of CSS4 Colors</h3>
               <p>
-                  
+                  After attending this talk you will understand that color is a measurable, reproducible sensation; standardized since 1931! You will get white point adaptation. You will understand Lab color space, be comfortable with gamut volume plots, and be able to laugh at snake-oil claims about color gamut coverage in advertising. You will be really looking forward to seeing CSS4 Color implemented in all the browsers.
               </p>
               <p>
                   Chris Lilley is a Technical Director at the World Wide Web Consortium
