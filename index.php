@@ -240,7 +240,7 @@
               <span>4:30 PM</span>
               <img src="img/leaverou.jpg" />
               <h4>Lea Verou <a href="https://twitter.com/leaverou" target="_blank">@leaverou</a></h4>
-              <h3>CSS Variables: var(--subtitle) Talk</h3>
+              <h3>CSS Variables: var(--subtitle)</h3>
               <p>
                   You may have heard about CSS Variables (aka CSS Custom Properties), but think it’s not something you can use yet. Plus, you already have your preprocessor pipeline in place, why should you care? This talk will show how CSS Variables are much more powerful than static preprocessor variables and can be used today without compromising progressive enhancement. You will also learn several creative tips and tricks to take full advantage of them. As is customary with Lea’s CSS talks, expect a swath of live demos to demonstrate the material.
               </p>
