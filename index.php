@@ -92,7 +92,7 @@
               <span>9:30 AM</span>
               <img src="img/kenneth.jpg" />
               <h4>Kenneth Ormandy <a href="https://twitter.com/kennethormandy" target="_blank">@kennethormandy</a></h4>
-              <h3>Syntax Highlighting Everywhere</h3>
+              <h3>Syntax Highlight Everything</h3>
               <p>
                 A developer employs syntax highlighting to visually differentiate portions of her code; for centuries, designers, printers, and scribes have done the same for readers. Today, advanced features built into fonts can subtly signify types of content, increase a text’s authority, and are actually necessary for many languages.<br/>
                 This talk introduces designers and developers to highlighting syntaxes beyond code. Learn how to access these advanced typographic features using CSS and JavaScript, and—more importantly—where to apply them.
