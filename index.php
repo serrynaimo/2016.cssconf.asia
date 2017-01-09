@@ -274,8 +274,8 @@
 
 
       <br/>
-      <a href="https://www.eventnook.com/event/devfestasia2016/home" target="_blank" class="button">
-          Get your tickets
+      <a href="https://www.youtube.com/watch?v=hj355PRbwSQ&list=PL37ZVnwpeshFizH1JsG3s7_qyN2Uk0OSh" target="_blank" class="button">
+          Watch the videos!
       </a>
       <br/>
 
